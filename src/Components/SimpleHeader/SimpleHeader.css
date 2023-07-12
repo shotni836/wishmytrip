@@ -1,0 +1,21 @@
+.simple-header .home-banner {
+    background-color: white;
+    box-shadow: none;
+    height: auto !important;
+}
+.simple-header .home-banner .dropdown2 {
+    color: black;
+    font-size: 14px;
+}
+.simple-header .home-banner .dropdown2 .user-icon {
+    border: 2px solid black;
+}
+.simple-header .home-banner .navbar-brand {
+    filter : unset;
+}
+.simple-header {
+    box-shadow: 0 0 11px rgba(33,33,33,.3);
+}
+@media screen and (max-width: 600px) {
+    
+}

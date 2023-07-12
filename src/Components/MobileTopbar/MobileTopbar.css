@@ -1,0 +1,19 @@
+.mobile-header {
+    display: none;
+  }
+
+  @media screen and (max-width: 600px) {
+    .mobile-header {
+        display: flex !important;
+        justify-content: space-between;
+        background-color: white;
+        padding: 20px;
+      }
+      .mobile-header .hamburger div, .mobile-header .hamburger1 div {
+          width: 30px;
+          height: 4px;
+          background-color: black;
+          margin: 4px 0;
+          cursor: pointer;
+      }
+  }
